@@ -21,8 +21,6 @@ We study two methods of implementation to sum the elements in the list:
 The file [list-add-performance.py](list-add-performance.py) implements the two ways. The performace measurement shows 
 that the first method is faster than the second one:
 ```
-Result of sum: 10000
-Elapsed time using built-in function: 80000 ns
-Result of sum: 10000
-Elapsed time using for-loop: 391000 ns
+Built-in method -> result of sum: 10000,  Elapsed time: 82000 ns
+For-loop method -> result of sum: 10000,  Elapsed time: 705000 ns
 ```
