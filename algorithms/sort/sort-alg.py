@@ -2,6 +2,7 @@ import time
 import random
 
 
+# Merge sort script
 def merge(leftList,rightList):
     sorted_list = []
     leftPivot = 0
@@ -37,6 +38,12 @@ def merge_sort(in_list):
         return sorted_list
     # the following only occurs when in_list has only one element. A list with single element is sorted
     sorted_list.append(in_list[0])
+    return sorted_list
+
+
+# Quick sort script
+def quick_sort(in_list):
+    sorted_list=[]
     return sorted_list
 
 
