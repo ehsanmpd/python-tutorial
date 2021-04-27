@@ -99,4 +99,4 @@ quick_time = (end-start)/1000
 print("Elapsed time for quick sort: %d us" % quick_time)
 
 # print(merge_time/sort_time)
-# print(quick_time/sort_time) 
+# print(quick_time/sort_time)
